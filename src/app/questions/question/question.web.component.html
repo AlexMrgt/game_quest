@@ -6,11 +6,11 @@
 
 
   <form class="question__form" [formGroup]="form">
-    <input class="question__input" type="text" name="answer" formControlName="answer">
+    <input class="question__input" type="text" name="answer" placeholder="Поле для ответа" formControlName="answer">
   </form>
 
 
-  <button class="question__answer-button" (click)="handleBtnClick()" type="button">Ответить</button>
+  <button class="question__answer-button" (click)="handleBtnClick()" type="button">Проверить свой интеллект!</button>
 
   <div [ngStyle]="{background: bgStyle}"  class="question__image-container" >
 

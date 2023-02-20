@@ -3,7 +3,7 @@ import { IQuestion } from "../interfaces/question.interface";
 export const questions: IQuestion[] = [
   {
     id: '0',
-    questionRows: [`def!`],
+    questionRows: ['Осспаде, у нас тут хацкер!','Вынул ссылку','Воткнул 0 в урл','Мои поздравления!','Вы - Настоящий детекив.'],
     questionAnswer: `default`
   },
   {

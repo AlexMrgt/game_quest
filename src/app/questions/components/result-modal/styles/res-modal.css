@@ -27,3 +27,17 @@
  .res-modal_error {
    background-color: black;
  }
+
+ .res-modal__text {
+  font-size: 24px;
+ }
+
+ .res-modal__retry-btn{
+
+background-color: aquamarine;
+  width: 80%;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 16px;
+  max-width: 400px;
+}

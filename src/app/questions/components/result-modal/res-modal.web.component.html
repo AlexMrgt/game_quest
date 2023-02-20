@@ -4,7 +4,7 @@
     'res-modal_error':model.answerStatus==='wrong' }">
 
 
-  <p *ngIf="model.answerStatus==='right'">
+  <p class="res-modal__text res-modal__text_success" *ngIf="model.answerStatus==='right'">
     Точно! Это верный ответ!
   </p>
 
@@ -13,7 +13,7 @@
 
 
 
-  <p style="color: aliceblue;" *ngIf="model.answerStatus==='wrong'">
+  <p class="res-modal__text res-modal__text_error" style="color: aliceblue;" *ngIf="model.answerStatus==='wrong'">
     О нет, это был неправильный ответ...
   </p>
 
@@ -22,7 +22,7 @@
 
 
 
-  <button *ngIf="model.answerStatus==='wrong'" type="button" (click)="handleRetutnBtnClick()">
+  <button class="res-modal__retry-btn" *ngIf="model.answerStatus==='wrong'" type="button" (click)="handleRetutnBtnClick()">
     Попробовать еще раз!
   </button>
 
