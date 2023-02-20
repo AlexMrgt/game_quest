@@ -5,7 +5,7 @@
   </div>
 
 
-  <form [formGroup]="form">
+  <form class="question__form" [formGroup]="form">
     <input class="question__input" type="text" name="answer" formControlName="answer">
   </form>
 
@@ -15,6 +15,7 @@
   <div [ngStyle]="{background: bgStyle}"  class="question__image-container" >
 
   </div>
+
   <app-res-modal [model]="modalModel"></app-res-modal>
 
 </section>
