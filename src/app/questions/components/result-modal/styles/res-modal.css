@@ -1,0 +1,23 @@
+ .res-modal {
+   position: fixed;
+   left: 100%;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   background-color: aqua;
+   z-index: 10;
+   height: 100%;
+   transition: all .3s;
+ }
+
+ .res-modal_activated {
+   left: 0;
+ }
+
+ .res-modal_success {
+   background-color: green;
+ }
+
+ .res-modal_error {
+   background-color: red;
+ }

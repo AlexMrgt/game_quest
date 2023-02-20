@@ -1,0 +1,13 @@
+<section class="res-modal" [ngClass]="{
+    'res-modal_activated': model.isShow === true,
+    'res-modal_success': model.answerStatus==='right',
+    'res-modal_error':model.answerStatus==='wrong' }">
+
+  <img>
+  <p>
+    M O D A L
+  </p>
+
+  <button *ngIf="model.answerStatus==='wrong'" type="button" (click)="handleRetutnBtnClick()">Попробовать еще
+    раз!</button>
+</section>

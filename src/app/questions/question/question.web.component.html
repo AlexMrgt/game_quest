@@ -1,0 +1,29 @@
+<section   class="question" *ngIf="questionData; else error">
+
+  <div class="question__text-container">
+    <p class="question__text" *ngFor="let row of questionData.questionRows; let i = index">{{row}}</p>
+  </div>
+
+
+  <form [formGroup]="form">
+    <input type="text" name="answer" formControlName="answer">
+  </form>
+
+
+  <button class="question__answer-button" (click)="handleBtnClick()" type="button">Ответить</button>
+
+
+  <!-- style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(``)" -->
+  <div [ngStyle]="{background: bgStyle}"  class="question__image-container" >
+
+  </div>
+  <app-res-modal [model]="modalModel"></app-res-modal>
+
+</section>
+
+
+<ng-template #error>
+  <p>
+    Ты не должен был сюда попасть, комрад.
+  </p>
+</ng-template>
