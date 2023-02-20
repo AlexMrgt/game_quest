@@ -3,11 +3,27 @@
     'res-modal_success': model.answerStatus==='right',
     'res-modal_error':model.answerStatus==='wrong' }">
 
-  <img>
-  <p>
-    M O D A L
+
+  <p *ngIf="model.answerStatus==='right'">
+    Точно! Это верный ответ!
   </p>
 
-  <button *ngIf="model.answerStatus==='wrong'" type="button" (click)="handleRetutnBtnClick()">Попробовать еще
-    раз!</button>
+  <img *ngIf="model.answerStatus==='right'" style="width: 50%; margin-bottom: 20%;"
+    src="../../../../assets/img/answer-images/right.png">
+
+
+
+  <p style="color: aliceblue;" *ngIf="model.answerStatus==='wrong'">
+    О нет, это был неправильный ответ...
+  </p>
+
+  <img *ngIf="model.answerStatus==='wrong'" style="width: 50%; margin-bottom: 20%;"
+    src="../../../../assets/img/answer-images/wrong.png">
+
+
+
+  <button *ngIf="model.answerStatus==='wrong'" type="button" (click)="handleRetutnBtnClick()">
+    Попробовать еще раз!
+  </button>
+
 </section>

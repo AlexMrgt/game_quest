@@ -1,19 +1,17 @@
 <section   class="question" *ngIf="questionData && bgStyle; else error">
 
   <div class="question__text-container">
-    <p class="question__text" *ngFor="let row of questionData.questionRows; let i = index">{{row}}</p>
+    <p class="question__text" *ngFor="let row of questionData.questionRows">{{row}}</p>
   </div>
 
 
   <form [formGroup]="form">
-    <input type="text" name="answer" formControlName="answer">
+    <input class="question__input" type="text" name="answer" formControlName="answer">
   </form>
 
 
   <button class="question__answer-button" (click)="handleBtnClick()" type="button">Ответить</button>
 
-
-  <!-- style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(``)" -->
   <div [ngStyle]="{background: bgStyle}"  class="question__image-container" >
 
   </div>

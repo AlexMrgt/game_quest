@@ -24,7 +24,6 @@ export class QuestionBaseComponent implements OnInit {
   public ngOnInit(): void {
 
     const currentQuestionId = this.ar.snapshot.paramMap.get('id') as string;
-    const a = 5;
 
     if (!currentQuestionId) {
       return;

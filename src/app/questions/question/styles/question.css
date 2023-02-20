@@ -40,3 +40,32 @@
   height: 100%;
 }
 
+.question__form{
+  width: 100%;
+}
+
+.question__input{
+  height: 40px;
+  width: 100%;
+  font-size: 26px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+.question__input:focus{
+  text-decoration: none;
+}
+
+.question__answer-button{
+  margin:  auto;
+  align-self:flex-end;
+  justify-self:flex-end;
+  width: 50%;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 16px;
+}
