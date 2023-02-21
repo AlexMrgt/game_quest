@@ -9,81 +9,81 @@ export const questions: IQuestion[] = [
   {
     id: `1`,
     questionRows: ['По реке плывет бревно.','Ох и злющее оно!'],
-    questionAnswer: `default`
+    questionAnswer: `крокодил`
   },
   {
     id: `2`,
     questionRows: ['Ах, не трогайте меня.','Обожгу и без огня!'],
-    questionAnswer: `default`
+    questionAnswer: `крапива`
   },
   {
     id: `3`,
     questionRows: ['В зоопарке,',' Верь, не верь,',' Проживает Чудо-зверь.','У него рука во лбу,','Так похожа на трубу!',],
-    questionAnswer: `default`
+    questionAnswer: `слон`
   },
   {
     id: `4`,
     questionRows: ['Я — услужливый пузан.','Всех охотно угощаю.','То молчу, как истукан.','А то песни распеваю.',],
-    questionAnswer: `default`
+    questionAnswer: `самовар`
   },
   {
     id: `5`,
     questionRows: ['Наша толстая Федора','Наедается не скоро.','Но, зато, когда сыта,','От Федоры – теплота.',],
-    questionAnswer: `default`
+    questionAnswer: `печка`
   },
   {
     id: `6`,
     questionRows:['Пустые отдыхаем,',' А полные шагаем.'],
-    questionAnswer: `default`
+    questionAnswer: `сапоги`
   },
   {
     id: `7`,
     questionRows: ['Восемь ног, как восемь рук,',' Вышивают шёлком круг.'],
-    questionAnswer: `default`
+    questionAnswer: `паук`
   },
   {
     id: `8`,
     questionRows:['Лежит на спине –','Никому не нужна.','Прислони к стене –','Пригодится она.'],
-    questionAnswer: `default`
+    questionAnswer: `лестница`
   },
   {
     id: `9`,
     questionRows:['Музыкант, певец, рассказчик,','А всего труба да ящик.',],
-    questionAnswer: `default`
+    questionAnswer: `граммофон`
   },
   {
     id: `10`,
     questionRows:['У меня загадка есть,','Она совсем простая:','Какую букву можно есть,','Когда она пустая?'],
-    questionAnswer: `default`
+    questionAnswer: `капуста`
   },
   {
     id: `11`,
     questionRows:['Орехов не ест,','Сахара не просит,','А щипцы с собой носит.'],
-    questionAnswer: `default`
+    questionAnswer: `рак`
   },
   {
     id: `12`,
     questionRows:['В лесу без огня',' Котел кипит.'],
-    questionAnswer: `default`
+    questionAnswer: `муравейник`
   },
   {
     id: `13`,
     questionRows:['Нет ушей, а слышит,','Нету рук, а пишет.'],
-    questionAnswer: `default`
+    questionAnswer: `магнитофон`
   },
   {
     id: `14`,
     questionRows:['Я и дома - и не дома,','Между небом и землей,','Отгадайте-ка, друзья,','Где же я?',],
-    questionAnswer: `default`
+    questionAnswer: `балкон`
   },
   {
     id: `15`,
     questionRows:['Где вода из года в год',' Не журчит и не поёт,',' Не звенит и не бежит,','А всегда столбом стоит…',],
-    questionAnswer: `default`
+    questionAnswer: `колодец`
   },
   {
     id: `16`,
     questionRows:[' Я под шапкой цветной','На ноге стою одной.','У меня свои повадки:','Я всегда играю в прятки.',],
-    questionAnswer: `default`
+    questionAnswer: `гриб`
   },
 ]
