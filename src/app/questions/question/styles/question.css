@@ -8,6 +8,8 @@
   box-sizing: border-box;
   z-index: 5;
   position: relative;
+  max-width: 1080px;
+  margin: auto;
 }
 
 .question__text {

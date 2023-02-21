@@ -13,6 +13,8 @@
    align-items: center;
    justify-content: center;
    display: flex;
+   max-width: 1080px;
+   margin: auto;
  }
 
  .res-modal_activated {
